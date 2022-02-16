@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="" th:href="@{/css/info.css}"/>
+    <title>Details of freshers</title>
+</head>
+<body>
+<div class="section">
+    <label for="email"></label><br>
+    <input type="email" placeholder="email" id="email" name="email" required><br>
+    <label for="password"></label><br>
+    <input type="password" placeholder="password" id="password" name="password" required><br><br><br><br>
+    <form id="btn" th:action="@{/data}">
+        <div class="btn">
+            <a class="btn btn-primary" th:href="@{'/dep'}"> <input type="button" value="Submit"/>
+            </a>
+        </div>
+    </form>
+</div>
+</body>
+</html>

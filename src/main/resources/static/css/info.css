@@ -1,0 +1,66 @@
+body{
+    align-items: center;
+
+}
+
+.section{
+    align-items: center;
+    margin-top: 250px ;
+    margin-left: 600px;
+}
+input{
+
+    size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container button{
+
+background-color: rgba(0, 195, 255, 0.356);
+border-radius: 5px;
+padding: 5px;
+margin-top : 100px;
+}
+
+.container{
+    margin-left: 400px;
+
+    }
+
+     button:hover{
+        color: rgba(0, 0, 0, 0.705);
+        background-color: rgba(248, 248, 124, 0.938);
+        text-decoration: none;
+    }
+     button:visited {
+        color: rgba(0, 0, 0, 0.705);
+        background-color: rgba(248, 248, 124, 0.938);
+        text-decoration: none;
+    }
+    button:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+    /* table th td{
+        border-style: solid;
+        border-collapse: collapse;
+        background-color: rgb(209, 136, 26);
+    } */
+
+    .table-data{
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
